@@ -34,7 +34,7 @@ body{
     background-color: #1f2937;
     display:flex;
     flex-direction: row;
-    height: 500px;
+    height: 300px;
     align-items: center;
     justify-content: space-between;
 }
@@ -66,24 +66,27 @@ body{
     background-color: white;
     display:flex;
     flex-direction: column;
-    height: 500px;
+    height: 300px;
 }
 .randomflex{
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content:center;
     gap: 20px;
     flex-wrap: wrap;
+    width:80%;
   }
   
 .ranbox1, .ranbox2,  .ranbox3, .ranbox4{
+    padding: 10px;
     width: 100px;
     height: 100px;
   }
 .infoheader{
     font-size: 36px;
     color:#1f2937;
+    text-align: center;
   }
 .quote-container{
     background-color: #e5e7eb;

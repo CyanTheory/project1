@@ -166,9 +166,9 @@ h1,h2,h3,h4,h5,h6, p {
 .signupbutton{
     border-radius: 5px;
     border:2px solid #E5E7EB;
-    display: block;
-    align-items: center;
+    text-align: center;
     color: #E5E7EB;
+    width: 80px;
 
 }
 .footerpanel{
